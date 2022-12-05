@@ -29,6 +29,26 @@ body::before {
   z-index: -1;
 }
 
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  color: white;
+  text-align: center;
+}
+p {
+  font-family: "Poppins", sans-serif;
+  color: rgb(202, 200, 200);
+  padding: 30px;
+  line-height: 30px;
+}
+
 .slider-container {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   height: 70vh;
